@@ -4,7 +4,7 @@ public class exercicios {
 
 	public static void main(String[] args) {
 		
-		//Esse exercício faz a soma dos números inteiros digitados no console, 2 números de cada vez. 
+		//Esse exercÃ­cio faz a soma dos nÃºmeros inteiros digitados no console, 2 nÃºmeros de cada vez. 
 		
 		Scanner sc = new Scanner(System.in);
 		
@@ -15,7 +15,7 @@ public class exercicios {
 		sc.nextLine();
 		y = sc.nextInt();
 		sc.nextLine();
-		System.out.println("A soma é:");
+		System.out.println("A soma Ã©:");
 		System.out.println(x + y);
 				
 		

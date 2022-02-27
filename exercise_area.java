@@ -4,6 +4,7 @@
 public class Exercise {
 
 	public static void main(String[] args) {
+		//Esse exercicio calcula a area do raio (numero inserido no console)
 		
 		Scanner sc = new Scanner(System.in);
 		Locale.setDefault(Locale.US);
@@ -21,7 +22,7 @@ public class Exercise {
 		a = Math.pow(raio, 2);
 		area = pi*a;
 		
-		System.out.printf("O valor da área é de: %.4f%n", area);
+		System.out.printf("O valor da Ã¡rea Ã© de: %.4f%n", area);
 		
 		
 		sc.close();

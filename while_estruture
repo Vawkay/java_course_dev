@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class while_estruture {
+
+	public static void main(String[] args) {
+		// Aqui o While vai repetir o comando soma ate que seja
+		// dado entrada em uma variavel de valor '0' (zero)
+		// Quando isso acontecer, o programa imprime o valor de 'soma'. 
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int x = sc.nextInt();
+		
+		int soma = 0;
+		while (x != 0) {
+			soma = soma + x;
+			x = sc.nextInt();
+		}
+		System.out.println(soma);
+		
+		sc.close();
+	}	
+
+}
